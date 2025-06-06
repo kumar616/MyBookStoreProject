@@ -18,6 +18,7 @@ import io.swagger.annotations.ApiOperation;
 @RestController
 public class OrderController {
 	
+	//static Logger log = LoggerFactory.getLogger(OrderController.class);
 	static Logger log = LoggerFactory.getLogger(OrderController.class);
 
 	@Autowired
