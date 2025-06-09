@@ -17,6 +17,7 @@ import springfox.documentation.spring.web.plugins.Docket;
 @SpringBootApplication
 public class JLCPlaceOrderConfig implements WebMvcConfigurer {
 	
+	
 	private ApiInfo getApiDetails() {
 		return new ApiInfo("JLC BookStore- API",
 		"BookSearch API - part of BookStore", "1.0",
